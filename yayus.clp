@@ -43,7 +43,7 @@
         (ask-question "Which of the following you have? (Arthritis/Alzeimer/Other)? "
             Arthritis Alzeimer Other))
         (switch ?response
-            (case Arthritis
+            (case (eq ?response Arthritis)
             then
                 (assert (cronical sickness Arthritis))
             )
@@ -55,28 +55,35 @@
             then
                 (assert (cronical sickness Other))
             )
+            (default
+                (assert (cronical sickness Other))
+            )
         )
        else 
        (assert (cronical sickness none))))
 
 (defrule no-cronic ""
     (cronical sickness none)
+    (not (result ?))
     =>
     (assert (result "No has de fer exercici!"))
 )
 
 (defrule no-cronic ""
     (cronical sickness Arthritis)
+    (not (result ?))
     =>
     (assert (result "You have Artritis"))
 )
 (defrule no-cronic ""
     (cronical sickness Alzeimer)
+    (not (result ?))
     =>
     (assert (result "You have Alzeimer"))
 )
 (defrule no-cronic ""
     (cronical sickness Other)
+    (not (result ?))
     =>
     (assert (result "You have Other"))
 )
