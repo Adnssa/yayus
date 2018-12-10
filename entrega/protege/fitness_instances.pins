@@ -1,0 +1,940 @@
+; Mon Dec 10 21:36:59 CET 2018
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([fitness_diagnose_Class30] of  Exercici
+
+	(description "Caminar")
+	(duration 20)
+	(inten 7)
+	(tipo "Caminar"))
+
+([fitness_diagnose_Class31] of  Exercici
+
+	(description "Paseo")
+	(duration 30)
+	(inten 7)
+	(tipo "Pasear"))
+
+([fitness_diagnose_Class32] of  Exercici
+
+	(description "1\nColóquese de\npie, con los\nbrazos y codos\nextendidos y con\nlas palmas de las\nmanos apoyadas\nen la pared.")
+	(duration 20)
+	(inten 6)
+	(tipo "Estiramiento de Pantorrilla"))
+
+([fitness_diagnose_Class34] of  Exercici
+
+	(description "1\nTúmbese de\nespaldas en el\nsuelo, “boca arri-\nba”, con las rodillas\nflexionadas y los\npies extendidos.\n2\nMantenga los\nhombros pega-\ndos al suelo con las\nrodillas dobladas y\njuntas.\n3\nBaje las rodillas\nlentamente sin")
+	(duration 20)
+	(inten 7)
+	(tipo "Estiramiento de Cadera"))
+
+([fitness_diagnose_Class35] of  Exercici
+
+	(description "Nadar")
+	(duration 30)
+	(inten 8)
+	(tipo "Nadar"))
+
+([fitness_diagnose_Class36] of  Exercici
+
+	(description "1\nSostenga la\ntoalla con\nuna mano.\n2\nLevante el\nbrazo de\nesa mano y\ndoble el codo,\npermitiendo\nque la toalla\nse deslice por\nla espalda.\n3\nAgarre el\nextremo\nde la toalla\nsituado en su\nespalda con\nla otra mano.")
+	(duration 10)
+	(inten 8)
+	(tipo "Estiramiento de Triceps"))
+
+([fitness_diagnose_Class37] of  Exercici
+
+	(description "Pedalear")
+	(duration 30)
+	(inten 9)
+	(tipo "Pedalear"))
+
+([fitness_diagnose_Class38] of  Exercici
+
+	(description "Subir i bajar escaleras.")
+	(duration 10)
+	(inten 10)
+	(tipo "Subir escaleras"))
+
+([fitness_diagnose_Class39] of  Exercici
+
+	(description "1\nPóngase de pie,\ndetrás de una silla\ny agárrese con las\ndos manos al respal-\ndo.\n\n2\nMantenga recta\nla espalda y los\nhombros.\n3\nFlexionando las\ncaderas vaya\ninclinando el cuerpo\nhacia delante.\n\n4\nCuando la parte\nsuperior del cuer-\npo esté paralela al\nsuelo, notará un tirón,\nmanténgase en esta\nposición.\n\n5\nRepítalo de 3 a 5\nveces")
+	(duration 5)
+	(inten 8)
+	(tipo "Estiramiento Tendones del Muslo"))
+
+([fitness_diagnose_Class40] of  Exercici
+
+	(description "8 a 15 Repeticiones, 2 series.")
+	(duration 10)
+	(inten 5)
+	(tipo "Flexion de Cadera"))
+
+([fitness_diagnose_Class41] of  Exercici
+
+	(description "8 a 15 Repeticiones, 2 series.")
+	(duration 10)
+	(inten 7)
+	(tipo "Levantamiento Lateral de Pierna"))
+
+([fitness_diagnose_Class42] of  Exercici
+
+	(description "8 a 15 Repeticiones, 2 series.")
+	(duration 10)
+	(inten 8)
+	(tipo "Flexion Plantar"))
+
+([fitness_diagnose_Class43] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n arritmia)
+	(ty cardio))
+
+([fitness_diagnose_Class44] of  Exercici
+
+	(description "Mientras se este orinando. Parar el flujo varias veces.")
+	(duration 5)
+	(inten 10)
+	(tipo "Kegel"))
+
+([fitness_diagnose_Class45] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n coronaria)
+	(ty cardio))
+
+([fitness_diagnose_Class46] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n diabetes)
+	(ty diabetes))
+
+([fitness_diagnose_Class47] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n artrosis)
+	(ty oseomuscular))
+
+([fitness_diagnose_Class48] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n renal)
+	(ty renal))
+
+([fitness_diagnose_Class49] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n depresion)
+	(ty depresion))
+
+([fitness_diagnose_Class50] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n fragilidad)
+	(ty fragilidad))
+
+([fitness_diagnose_Class51] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n arritmia)
+	(ty cardio))
+
+([fitness_diagnose_Class52] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n coronaria)
+	(ty cardio))
+
+([fitness_diagnose_Class53] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n diabetes)
+	(ty diabetes))
+
+([fitness_diagnose_Class54] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n artrosis)
+	(ty oseomuscular))
+
+([fitness_diagnose_Class55] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n renal)
+	(ty renal))
+
+([fitness_diagnose_Class56] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n depresion)
+	(ty depresion))
+
+([fitness_diagnose_Class57] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n fragilidad)
+	(ty fragilidad))
+
+([fitness_diagnose_Class58] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia2
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia3
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia4
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia5
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(level high)
+	(n arritmia)
+	(ty cardio))
+
+([fitness_diagnose_Class59] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia2
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia3
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia4
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia5
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(level high)
+	(n coronaria)
+	(ty cardio))
+
+([fitness_diagnose_Class60] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia2
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia3
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia4
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia5
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(level high)
+	(n diabetes)
+	(ty diabetes))
+
+([fitness_diagnose_Class61] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia2
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia3
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia4
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia5
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(level high)
+	(n artrosis)
+	(ty oseomuscular))
+
+([fitness_diagnose_Class62] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia2
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia3
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia4
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia5
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(level high)
+	(n renal)
+	(ty renal))
+
+([fitness_diagnose_Class63] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia2
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia3
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia4
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia5
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(level high)
+	(n depresion)
+	(ty depresion))
+
+([fitness_diagnose_Class64] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia2
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia3
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia4
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia5
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(level high)
+	(n fragilidad)
+	(ty fragilidad))
+
+([fitness_diagnose_Class65] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n caidas)
+	(ty caidas))
+
+([fitness_diagnose_Class66] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia3
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class31]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34])
+	(level low)
+	(n osteoporosis)
+	(ty oseomuscular))
+
+([fitness_diagnose_Class68] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n arritmia)
+	(ty cardio))
+
+([fitness_diagnose_Class69] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia2
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia4
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(dia5
+		[fitness_diagnose_Class30]
+		[fitness_diagnose_Class35]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36])
+	(level med)
+	(n osteoporosis)
+	(ty oseomuscular))
+
+([fitness_diagnose_Class70] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class42]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia2
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class42]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia3
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class42]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia4
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class42]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(dia5
+		[fitness_diagnose_Class37]
+		[fitness_diagnose_Class38]
+		[fitness_diagnose_Class32]
+		[fitness_diagnose_Class34]
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class42]
+		[fitness_diagnose_Class36]
+		[fitness_diagnose_Class39])
+	(level high)
+	(n arritmia)
+	(ty cardio))
+
+([fitness_diagnose_Class71] of  Enfermetat
+
+	(dia1
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class42]
+		[fitness_diagnose_Class44])
+	(dia3
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class42]
+		[fitness_diagnose_Class44])
+	(dia5
+		[fitness_diagnose_Class40]
+		[fitness_diagnose_Class41]
+		[fitness_diagnose_Class42]
+		[fitness_diagnose_Class44])
+	(level low)
+	(n incontinencia)
+	(ty incontinencia))

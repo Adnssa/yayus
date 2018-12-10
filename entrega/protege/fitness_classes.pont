@@ -1,0 +1,247 @@
+; Mon Dec 10 21:36:59 CET 2018
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(multislot ex
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia7
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot n
+		(type SYMBOL)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tdia6
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia2
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(multislot dia3
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia1
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia4
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tipo
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia5
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia3
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot enf
+		(type INSTANCE)
+;+		(allowed-classes Enfermetat)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia6
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia2
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia7
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia5
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tdia4
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia1
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot inten
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot level
+		(type SYMBOL)
+		(allowed-values low med high)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot description
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot ty
+;+		(comment "Type")
+		(type SYMBOL)
+		(allowed-values cardio diabetes)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot duration
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot fitness_diagnose_Class21
+		(type INSTANCE)
+;+		(allowed-classes Enfermetat)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Exercici
+	(is-a USER)
+	(role concrete)
+	(single-slot inten
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot duration
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tipo
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot description
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Enfermetat
+	(is-a USER)
+	(role concrete)
+	(single-slot n
+		(type SYMBOL)
+		(allowed-values arritmia coronaria diabetes caidas osteoporosis artrosis renal depresion fragilidad incontinencia)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia1
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(multislot dia2
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot ty
+;+		(comment "Type")
+		(type SYMBOL)
+		(allowed-values cardio diabetes oseomuscular depresion fragilidad incontinencia caidas renal)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia3
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(multislot dia4
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(multislot dia5
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot level
+		(type SYMBOL)
+		(allowed-values low med high)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia6
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(multislot dia7
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write)))
+
+(defclass Recomendacion
+	(is-a USER)
+	(role concrete)
+	(single-slot enf
+		(type INSTANCE)
+;+		(allowed-classes Enfermetat)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
+
+(defclass Resultat
+	(is-a USER)
+	(role concrete)
+	(multislot dia1
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia7
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tdia6
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia2
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(multislot dia3
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia1
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia4
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(multislot dia5
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia3
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia6
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia2
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot dia7
+		(type INSTANCE)
+;+		(allowed-classes Exercici)
+		(create-accessor read-write))
+	(single-slot tdia5
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot tdia4
+		(type INTEGER)
+;+		(cardinality 0 1)
+		(create-accessor read-write)))
